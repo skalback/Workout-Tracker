@@ -27,20 +27,20 @@ const workoutSchema = new Schema(
                     required: "Provide the duration of the exercise in minutes"
                 },
                 weight: {
-                    type: Number
+                    type: Number,
                     min: [Number.MIN_VALUE, "Weight cannot be zero"]
                     
                 },
                 reps: {
-                    type: Number
+                    type: Number,
                     min: [Number.MIN_VALUE, "At least 1 rep is required"]
                 },
                 sets: {
-                    type: Number
+                    type: Number,
                     min: [Number.MIN_VALUE, "At least 1 set is required"]
                 },
                 distance: {
-                    type: Number
+                    type: Number,
                     min: [Number.MIN_VALUE, "Distance cannoy be zero"]
 
                 }
