@@ -1,6 +1,5 @@
 # Workout Tracker
- Note-Taker App
-
+ 
 ## Summary
 An application that allows you to keep track of your fitness goals and routines. 
 
